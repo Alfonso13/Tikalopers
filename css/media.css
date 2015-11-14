@@ -1,0 +1,158 @@
+@media only screen and (min-width: 1200px) {
+	section.modal {
+	  padding: 5% 28%;
+	}
+	section.modal div.modal-container form div > fieldset {
+		display: inline-block;
+		vertical-align: top;
+		width: 48%;
+	}
+	section.modal div.modal-container form > div#container-message {
+		width: 87% !important;
+	}
+	section.modal div.modal-container form > div#container-message fieldset{
+		display: block;
+		width: 100%;
+	}
+	section#presentation {
+		padding: 16% 2em 18% 2em !important;
+	}
+	section#presentation h1 {
+		font-size: 3.8em !important;
+		font-weight: 200;
+	}
+	section.services {
+		padding-bottom: 2em;
+	}
+	section.services article.service {
+		display: inline-block !important;
+		vertical-align: top;
+		margin: 1em 0 2em 0; 
+		width: 28%;
+	}
+	section.services article.service div {
+		border-bottom: 0;
+	}
+	section.services article.service div a {
+		font-size: 1.2em;
+		margin: 0 0.3em !important;
+	}
+	section.services article.service div p {
+		font-size: 1.3em;
+	}
+	section.team-tikalopers .container-team {
+		width: 24% !important;
+		margin: 0 3em;
+	}
+	section.contact div.content-contact {
+		margin-top: 1em;
+	}
+		section.contact ul.our-media li {
+			margin: 0 2em;
+		}
+		section.contact div.content-contact h2 {
+			font-size: 1.6em;
+			margin-top: 2.5em;
+		}
+		section.contact #contact-form form {
+			display: inline-block;
+			width: 40%;
+		}
+	.container footer > h2:nth-child(5) {
+		font-size: 1.2em;
+		display: inline-block;
+	}
+	.container footer hr {
+		width: 80%;
+	}
+	#container-form-suscribe {
+		display: inline-block;
+	}
+	.container footer form fieldset input {
+
+	}
+	#navbar #container-logo {
+		width: 17% !important;
+		margin-left: 1.5em !important;
+	}
+	#navbar label {
+		display: none;
+	}
+	#header #desktop-nav {
+		margin-left: 35% !important;
+	}
+	#header #desktop-nav, #header #desktop-nav ul li {
+		display: inline-block;
+	}
+	#header #desktop-nav ul li a {
+		color: #333;
+		display: inline-block;
+		font-weight: 300;
+		padding: 0.5em 0.7em;
+	}
+	section.history-tikalopers {
+		padding: 4em;
+	}
+		section.history-tikalopers h1 {
+			font-size: 2em;
+		}
+		section.history-tikalopers h3 {
+			font-size: 1.35em;
+		}
+		section.history-tikalopers p {
+			padding: 0 6em;
+			font-size: 1.1em;
+		}
+}
+@media only screen and (min-width: 762px) {
+	section.introduction {
+		padding: 19% 2em 12% 2em !important;
+	}
+	section.introduction h1 {
+		font-size: 2.8em !important;
+	}
+	section.services article.service div a {
+		margin: 0 0.8em;
+	}
+	section.team-tikalopers article figure {
+		padding: 5em !important;
+	}
+	section.team-tikalopers article figure {
+		padding: 0 4em !important;
+	}
+	section.team-tikalopers .container-team {
+		display: inline-block;
+		width: 45%;
+	}
+	section.contact ul.our-media li {
+		display: inline-block;
+		padding: 0 1em;
+	}
+	.container footer form fieldset{
+		display: inline-block;
+	}
+	.container footer h2 {
+		font-size: 1.5em;
+	}
+	section.contact #contact-form form button {
+		padding: 0.7em 1.6em;
+	}
+	#navbar #container-logo {
+		width: 30%;
+		margin-left: 1%;
+	}
+}
+@media only screen and (min-width: 480px) {
+	section.introduction {
+		padding: 23% 2em 12% 2em;
+	}
+		section.introduction h1 {
+			font-size: 2.5em;
+		}
+	section.team-tikalopers article figure {
+		padding: 0 12em;
+	}
+}
+/*@media only screen and (min-width: 320px) {
+	
+}*/
