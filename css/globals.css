@@ -73,12 +73,17 @@
 .no-underline {
 	text-decoration: none;
 }
-/* .collapse-nav {
-	height: 25.5em;
+.inline-block {
+	display: inline-block;
 }
-.no-collapse-nav {
-	height: 0;
-} */
+.inline-block-top {
+	display: inline-block;
+	vertical-align: top;
+}
+.inline-block-middle {
+	display: inline-block;
+	vertical-align: middle;
+}
 .no-margin {
 	margin: 0;
 }
@@ -93,12 +98,6 @@
 		font-weight: 700;
 		margin: 0;
 	}
-fieldset {
-	border: 0;
-}
-fieldset input, fieldset textarea {
-	outline: none;
-}
 .block {
 	display: block;
 }
@@ -107,4 +106,13 @@ fieldset input, fieldset textarea {
 }
 .bold {
 	font-weight: bold !important;
+}
+fieldset {
+	border: 0;
+}
+fieldset input, fieldset textarea {
+	outline: none;
+}
+figure {
+	margin: 0;
 }

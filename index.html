@@ -21,423 +21,347 @@
 	  	ga('create','UA-68415574-1', 'auto');
 		ga('send', 'pageview');
 	</script>
-	<script src="lib/jquery.min.js"></script>
-	<script src="lib/serializeObject.js"></script>
 </head>
 <body>
-	<section class="modal no-visibility" id="ModalCotizacion" >
-		<div class="modal-container relative">
-			<a class="close">X</a>
-			<div id="titulo_cotizacion">
-				<h3 class="no-margin">COTIZACIÓN</h3>
-			</div>
-			<div id="cotizacion" class="align-center">
-				<form name="formulario_cotizacion">
-					<fieldset class="align-center no-margin no-padding">
-						<label class="block" style="font-weight: 300;">Cotización de: </label>
-						<p class="no-margin align-center" style="font-weight: 600; color: #343434;" id="selected-service"></p>
-					</fieldset>
-					<div id="container-form-service">
-						<fieldset>
-							<label>Nombre</label>
-							<input type="text" id="cotizacion_nombre" required />
-							<span class="align-center"></span>
-						</fieldset>
-						<fieldset>
-							<label>Correo</label>
-							<input type="email" id="cotizacion_correo" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required />
-							<span class="align-center"></span>
-						</fieldset>
-						<fieldset>
-							<label>Empresa</label>
-							<input type="text" id="cotizacion_empresa" required />
-							<span class="align-center"></span>
-						</fieldset>
-						<fieldset>
-							<label>Sitio Web (si tuviera)</label>
-							<input type="url" id="cotizacion_sitio" />
-						</fieldset>
-					</div>
-					<div class="align-center" id="container-message" style="width: 90%;display: inline-block;text-align: left;">
-						<fieldset class="inline-block" style="margin: 0; padding: 0;">
-							<label class="block align-left" style="font-weight: 300;font-size: 1em;">Cuéntanos lo que necesitas</label>
-							<textarea id="cotizacion_mensaje" class="block no-padding"></textarea>
-						</fieldset>
-					</div>
-					<div class="align-center no-margin container-buttons">
-						<button id="btn-cotizar">COTIZAR</button>
-					</div>
-				</form>
-			</div>
-		</div>
-	</section>
-	<section class="modal no-visibility" id="ModalPaquete" >
-		<div class="modal-container">
-			<a class="close">X</a>
-			<div id="titulo_cotizacion">		
-				<p class="no-margin">¡Atréve a cambiar tu entorno!</p>
-			</div>
-			<div id="cotizacion" class="align-center">
-				<div id="selection-services">
-					<p class="align-center no-margin" style="margin-bottom: 0.4em !important;">Selecciona los servicios que deseas adquirir con nosotros</p>
-					<ul class="list-none no-margin no-padding">
-						<li class="item-service-selected">
-							<span data-service-id="0" class="inline-block icon-display"></span>
-							<label class="no-margin block">Sitio Web</label>
+	<div class="container">
+		<header>
+			<div id="header">
+				<figure class="logo inline-block-middle">
+					<img src="img/Logo Tikalopers.png" class="image-responsive" alt="">
+				</figure>
+				<nav class="inline-block-middle">
+					<ul class="list-none menu-navigation">
+						<li>
+							<a data-transition="header" href="#">Inicio</a>
 						</li>
-						<li class="item-service-selected">
-							<span data-service-id="1" class="inline-block icon-mobile"></span>
-							<label class="no-margin block">App Móvil</label>
+						<li>
+							<a data-transition="tikalopers" href="#">Tikalopers</a>
 						</li>
-						<li class="item-service-selected">
-							<span data-service-id="2" class="inline-block icon-bullhorn"></span>
-							<label class="block no-margin">Social Media</label>
+						<li>
+							<a data-transition="services" href="#">Servicios</a>
+						</li>
+						<li>
+							<a data-transition="we" href="#">Nosotros</a>
+						</li>
+						<li>
+							<a href="#">Blog</a>
+						</li>
+						<li>
+							<a data-transition="contact" href="#">
+								<strong>Contacto</strong>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<h1>
+				Construimos <strong>conexiones humanas</strong> de valor entre tu empresa y tus clientes
+			</h1>
+		</header>
+		<section id="tikalopers">
+			<h2>TIKALOPERS</h2>
+			<h3>POR QUÉ NACE</h3>
+			<p>
+				Tikalopers nace por la necesidad de crear un ambiente empresarial que sea capaz de comprender la verdadera importancia de las tecnologías web, aplicaciones móviles y marketing de medios sociales para lograr generar una verdadera conexión humana de valor entre cliente y empresa.
+			</p>
+		</section>
+		<section id="services">
+			<h2>SERVICIOS</h2>
+			<article class="service">
+				<span class="icon-display"></span>
+				<h2>WEB</h2>
+				<p>No creamos sitios web para tu empresa.  Creamos verdaderas experiencias online a tus clientes</p>
+				<div class="container-block-services">
+					<div class="block-service">
+						<header>
+							<h2>BÁSICO</h2>
+						</header>
+						<ul>
+							<li>Landing Page</li>
+							<li>Formularios</li>
+							<li>Google Maps</li>
+							<li>Actualizaciones de contenido</li>
+						</ul>
+						<div>
+							<button>PRESUPUESTO</button>
+						</div>
+					</div>
+					<div class="block-service">
+						<header>
+							<h2>ESTÁNDAR</h2>
+						</header>
+						<ul>
+							<li>
+								2 o más páginas
+							</li>
+							<li>
+								Base de Datos
+							</li>
+							<li>
+								Actualización de contenido
+							</li>
+							<li>
+								Formularios
+							</li>
+							<li>
+								Google Maps
+							</li>
+							<li>
+								Blog
+							</li>
+						</ul>
+						<div>
+							<button>PRESUPUESTO</button>
+						</div>
+					</div>
+					<div class="block-service">
+						<header>
+							<h2>PRO</h2>
+						</header>
+						<ul>
+							<li>
+								Vender online
+							</li>
+							<li>
+								2 o más páginas
+							</li>
+							<li>
+								Base de Datos
+							</li>	
+							<li>
+								Actualizaciones de contenido
+							</li>
+							<li>
+								Formularios
+							</li>
+							<li>
+								Google Maps
+							</li>
+							<li>
+								Blog
+							</li>
+						</ul>
+						<div>
+							<button>PRESUPUESTO</button>
+						</div>
+					</div>
+				</div>
+				<div class="benefits">
+					<h2>TODO SITIO WEB CONTIENE</h2>
+					<ul>
+						<li>
+							Diseño adaptable a diferentes resoluciones
+						</li>
+						<li>
+							Optimizado para SEO
 						</li>
 					</ul>
 				</div>
-				<form name="formulario_cotizacion_paquete" id="formulario_cotizacion_paquete">
-					<hr class="block" style="border: 1px solid #DEDEDE;margin-top: 1em;width: 90%;" />
-					<div id="container-form-service">
-						<fieldset>
-							<label>Nombre</label>
-							<input type="text" id="cotizacion_nombre" name="name" disabled placeholder='Deshabilitado' autofocus="autofocus" required />
-							<span class="align-center"></span>
-						</fieldset>
-						<fieldset>
-							<label>Correo</label>
-							<input type="email" name="email" placeholder='Deshabilitado' disabled required />
-							<span class="align-center"></span>
-						</fieldset>
-						<fieldset>
-							<label>Empresa</label>
-							<input type="text" name="company" placeholder='Deshabilitado' disabled required />
-							<span class="align-center"></span>
-						</fieldset>
-						<fieldset>
-							<label>Sitio Web (si tuviera)</label>
-							<input type="url" name="site" placeholder='Deshabilitado' disabled />
-						</fieldset>
-					</div>
-					<div class="align-center">
-						<fieldset class="inline-block no-margin no-padding">
-							<label class="block align-left">Cuéntanos lo que necesitas</label>
-							<textarea name="message" class="block no-padding" placeholder='Deshabilitado' disabled></textarea>
-							<!-- <p>¡OBTÉN TU SITIO WEB PERFECTO QUE ENCANTARÁ A TUS FANS!</p> -->
-						</fieldset>
-					</div>
-					<p class="align-center no-margin container-buttons">
-						<button class="hover no-margin" disabled>COTIZAR</button>
-					</p>
-				</form>
-			</div>
-		</div>
-	</section>
-	<section class="modal no-visibility" id="ModalBeneficios" >
-		<div class="modal-container">
-			<a class="close">X</a>
-			<div id="container-beneficios">
-				
-			</div>
-		</div>
-	</section>
-	<div id="container-mobile-nav" class="no-visibility">
-		<a href="#" class="close">X</a>
-		<ul class="no-collapse-nav list-none" id="mobile-nav">
-			<li>
-				<a href="#" data-role="presentation"  class="no-underline">INICIO</a>
-			</li>
-			<li>
-				<a href="#" data-role="history" class="no-underline">HISTORIA</a>
-			</li>
-			<li>
-				<a href="#" data-role="services-benefits"  class="no-underline">BENEFICIOS</a>
-			</li>
-			<li>
-				<a href="#" data-role="services"  class="no-underline">SERVICIOS</a>
-			</li>
-			<li>
-				<a href="#" data-role="team" class="no-underline">NOSOTROS</a>
-			</li>
-			<li>
-				<a href="#"  class="no-underline">BLOG</a>
-			</li>
-			<li>
-				<a href="#" data-role="contact" class="no-underline">CONTACTO</a>
-			</li>
-		</ul>
-	</div>
-	<div class="container">
-		<header id="header">
-			<div id="navbar">
-				<figure id="container-logo">
-					<img src="img/Logo Tikalopers.png" class="image-responsive" id="logo" alt="Logotipo Tikalopers">
-				</figure>
-				<label id="collapse-mobile-menu" class="icon-menu"></label>
-				<div id="desktop-nav">
-					<nav>
-						<ul class="list-none" id="navigation">
+			</article>
+			<article class="service">
+				<span class="icon-mobile"></span>
+				<h2>MÓVIL</h2>
+				<p>No hacemos apps.  Hacemos que tus clientes siempre lleven tu empresa en alguna parte de ellos</p>
+				<div class="container-block-services">
+					<div class="block-service">
+						<header>
+							<h2>HÍBRIDA</h2>
+						</header>
+						<ul>
 							<li>
-								<a href="#" data-role="header" data-hash="home" class="no-underline">INICIO</a>
+								Multi plataforma
 							</li>
 							<li>
-								<a href="#" data-role="history" data-hash="historia" class="no-underline">HISTORIA</a>
+								Material Design
 							</li>
 							<li>
-								<a href="#" data-role="services" data-hash="servicios" class="no-underline">SERVICIOS</a>
-							</li>
-							<li>
-								<a href="#" data-role="team" data-hash="nosotros" class="no-underline">NOSOTROS</a>
-							</li>
-							<li>
-								<a href="#" class="no-underline">BLOG</a>
-							</li>
-							<li>
-								<strong>
-									<a href="#" data-role="contact" data-hash="contacto" class="no-underline bold">CONTACTO</a>
-								</strong>
+								Base de Datos
 							</li>
 						</ul>
-					</nav>
-				</div>
-			</div>
-		</header>
-		<section id="presentation" class="introduction relative">
-			<h1>Construimos <strong>conexiones humanas</strong> de valor entre tu empresa y tus clientes</h1>
-			<div class="relative" id="container-btn-down">
-				<a href="#" class="no-underline" id="btn-down">
-					<span class="icon-chevron-down"></span>
-				</a>
-			</div>
-		</section>
-		<section id="history" class="history-tikalopers relative">
-			<h1>TIKALOPERS</h1>
-			<h3>POR QUÉ NACE</h3>
-			<p>
-				El surgimiento de la actividad deportiva en sus múltiples modalidades se remonta a la
-				aparición misma de la humanidad, pues el juego y los deportes son inherentes a la
-				naturaleza del hombre. En dondequiera que ha existido un grupo o conglomerado
-				humano, necesariamente se ha practicado una actividad deportiva o por lo menos una
-				actividad asimilable al deporte, entendiendo como tal, aquella ocupación en la que se
-				combina de una u otra manera el juego, la actividad física, 
-			</p>
-		</section>
-		<section id="services" class="services">
-			<div class="team-title" style="padding:1.5em 1em 0.4em 1em;">
-				<h3>SERVICIOS</h3>
-			</div>
-			<article class="service">
-				<figure class="circle">
-					<span class="icon-display"></span>
-				</figure>
-				<div>
-					<h2>Desarrollo Web</h2>
-					<p>
-						Haz que tus clientes amen tu producto dándoles la mejor experiencia online a través de un sitio web capaz de mostrarles las bondades de lo que ofreces y asegurar su lealtad.
-					</p>
-					<a href="#" class="btn-buy-service" data-service-id="0" data-service="web">¡LO QUIERO!</a>
-					<a href="#" class="btn-benefits-service" data-role="web" style="margin-top: 8px;">BENEFICIOS</a>
+						<div>
+							<button>PRESUPUESTO</button>
+						</div>
+					</div>
 				</div>
 			</article>
 			<article class="service">
-				<figure class="circle">
-					<span class="icon-mobile"></span>
-				</figure>
-				<div>
-					<h2>Desarrollo de Apps</h2>
-					<p>
-					Crea conexiones de calidad con tus clientes y aumenta tu número de ventas.  Adquiere con nosotros la mejor estructura y diseño de la App que tú y tus clientes siempre soñaron.
-					</p>
-					<a href="#" class="btn-buy-service" data-service-id="1" data-service="mobile">¡LO QUIERO!</a>
-					<a href="#" class="btn-benefits-service" data-role="app" style="margin-top: 8px;">BENEFICIOS</a>
+				<span class="icon-bullhorn"></span>
+				<h2>MARKETING</h2>
+				<p>No es solo una red social.  Es un ambiente donde tus clientes esperando contenido de valor</p>
+				<div class="container-block-services">
+					<div class="block-service">
+						<header>
+							<h2>
+								SOCIAL MEDIA
+							</h2>
+						</header>
+						<ul>
+							<li>
+								Estrategia de marketing de redes sociales
+							</li>
+							<li>
+								Medición y estadísticas de publicaciones en redes sociales
+							</li>
+							<li>
+								Mejor segmentación de mercado
+							</li>
+						</ul>
+						<div>
+							<button>PRESUPUESTO</button>
+						</div>
+					</div>
 				</div>
 			</article>
-			<article class="service">
-				<figure class="circle">
-					<span class="icon-bullhorn"></span>
-				</figure>
-				<div>
-					<h2>Social Media Marketing</h2>
-					<p>
-						Aprovecha las bondades de las redes sociales. Comunícate e interactúa con tus clientes para que éstos estén 100% conectados con tu producto.
-					</p>
-					<a href="#" class="btn-buy-service" data-service-id="2" data-service="media">¡LO QUIERO!</a>
-					<a href="#" class="btn-benefits-service" data-role="marketing" style="margin-top: 8px;">BENEFICIOS</a>
-				</div>
-			</article>
-			<article class="service package-service">
-				<figure class="circle">
+			<article class="package-services">
+				<h2>ADQUIERE AHORA</h2>
+				<h3>TU PROPIO PAQUETE DE SERVICIOS</h3>
+				<div class="block-service">
 					<span class="icon-stack"></span>
-				</figure>
-				<div>
-					<h2>
-						PAQUETE DE SERVICIOS
-					</h2>
 					<p>
-						Elige tu propio paquete de servicios con el que deseas innovar en el mercado.  Dale a tus clientes la oportunidad de conectarse con tu empresa en cualquier instante
+						Elige tu propio paquete de servicios con el que deseas innovar en el mercado.  Dale a tus clientes la oportundiad de conectarse con tu empresa en cualquier instante
 					</p>
-					<a href="#" id="btn-buy-package-service" style="color: #11BBAB !important;">¡LO QUIERO!</a>
-				</div>
-			</article>
-		</section>
-		<section id="team" class="team-tikalopers">
-			<article>
-				<div class="team-title">
-					<h3>
-						FOUNDERS
-					</h3>
-				</div>
-				<div>
-					<div class="container-team">
-						<figure>
-							<img src="img/alfonso fundador tikalopers.png" class="image-responsive" alt="Alfonso Fundador Tikalopers">
-						</figure>
-						<strong class="team-name block">
-							ALFONSO PIEDRASANTA
-						</strong>
-						<p class="social-media">
-							<a href="https://www.facebook.com/ponshixx" target="_blank" class="icon-facebook"></a>
-							<a href="https://twitter.com/ponchofront" target="_blank" class="icon-twitter"></a>
-						</p>
-					</div>	
-					<div class="container-team">
-						<figure>
-							<img src="img/maximiliano fundador tikalopers.png" alt="Maximiliano Fundador Tikalopers" class="image-responsive" />
-						</figure>
-						<strong class="team-name block">
-							MAXIMILIANO LÓPEZ
-						</strong>
-						<p class="social-media">
-							<a href="https://www.facebook.com/maximiliano.jose.francisco.lopez.aquino" target="_blank" class="icon-facebook"></a>
-							<a href="https://twitter.com/MAXLOPERS" target="_blank" class="icon-twitter"></a>
-						</p>
-					</div>	
-				</div>
-			</article>
-			<article>
-				<div class="team-title">
-					<h3>
-						TEAM
-					</h3>
-				</div>
-				<div>
-					<div class="container-team">
-						<figure>
-							<img src="img/kevin frontend tikalopers.png" alt="Kevin Frontend Tikalopers">
-						</figure>
-						<strong class="team-name block">
-							KEVIN SANTIS
-						</strong>
-						<strong class="team-job block">
-							Frontend							
-						</strong>
-						<p class="social-media">
-							<a href="https://www.facebook.com/kevin.santis" target="_blank" class="icon-facebook"></a>
-							<a href="#" class="icon-twitter"></a>
-						</p>
-					</div>	
-					<div class="container-team">
-						<figure>
-							<img src="img/marlon backend tikalopers.png" alt="Marlon Backend Tikalopers" class="image-responsive" />
-						</figure>
-						<strong class="team-name block">
-							MARLON MEJÍA
-						</strong>
-						<strong class="team-job block">
-							Backend
-						</strong>
-						<p class="social-media">
-							<a href="https://www.facebook.com/Martech3" target="_blank" class="icon-facebook"></a>
-							<a href="#" class="icon-twitter"></a>
-						</p>
+					<div>
+						<button>PRESUPUESTO</button>
 					</div>
 				</div>
 			</article>
 		</section>
-		<section id="contact" class="contact">
-			<div class="team-title no-margin">
-				<h3>HABLANOS POR AQUÍ</h3>
-			</div>
-			<div class="content-contact">
-				<ul class="list-none our-media">
+		<section id="work">
+			<h2>NUESTRO TRABAJO</h2>
+			<h4></h4>
+			<article id="mobile-web-applications">
+				<div class="title-work">
+					<h2>Diseño Web y Aplicaciones Móviles</h2>
+				</div>
+				<div class="figure-work">
+					<figure>
+						<img src="img/work.png" class="responsive-image" alt="">
+					</figure>
+				</div>
+			</article>
+			<article id="social-media-marketing">
+				<div class="figure-work">
+					<figure>
+						<img src="img/social.png" class="responsive-image" alt="" />
+					</figure>
+				</div>
+				<div class="title-work">
+					<h2>Social Media Marketing</h2>
+				</div>
+			</article>
+		</section>
+		<section id="we">
+			<h2>EQUIPO TIKALOPERS</h2>
+			<article>
+				<div>
+					<figure>
+						
+					</figure>
+					<h4>Maximiliano López</h4>
+					<h3>CEO</h3>
+					<div class="icons-network">
+						<a class="icon-facebook" href="#"></a>
+						<a class="icon-twitter" href="#"></a>
+					</div>
+				</div>
+				<div>
+					<figure>
+						
+					</figure>
+					<h4>Alfonso Piedrasanta</h4>
+					<h3>CTO</h3>
+					<div class="icons-network">
+						<a class="icon-facebook" href="#"></a>
+						<a class="icon-twitter" href="#"></a>
+					</div>
+				</div>
+			</article>
+		</section>
+		<section id="contact">
+			<h2>CONTACTO</h2>
+			<div class="social-network">
+				<ul>
 					<li>
-						<h3>Twitter</h3>
-						<a target="_blank" href="https://twitter.com/TIKALOPERS">@Tikalopers</a>
+						<h3>TWITTER</h3>
+						<a href="#">@tikalopers</a>
 					</li>
 					<li>
-						<h3>Facebook</h3>
-						<a target="_blank" href="https://www.facebook.com/TIKALOPERS">Tikalopers</a>
+						<h3>FACEBOOK</h3>
+						<a href="#">tikalopers</a>
 					</li>
 					<li>
-						<h3>E-mail</h3>
-						<a target="_blank" href="mailto:tikalopers@gmail.com">team@tikalopers.com</a>
+						<h3>E-MAIL</h3>
+						<a href="#">team@tikalopers.com</a>
 					</li>
 					<li>
-						<h3>Skype</h3>
-						<a href="">Tikalopers</a>
+						<h3>SKYPE</h3>
+						<a href="#">Tikalopers</a>
 					</li>
 				</ul>
-				<h2>TELÉFONOS</h2>
-				<p class="no-margin">
-					<strong>Guatemala</strong>
-				</p>
-				<ul class="phones list-none">
+			</div>
+			<div class="phones">
+				<h2>TELÉFONOS</h3>
+				<h3>Guatemala</h3>
+				<ul>
 					<li>
-						(502) 5929 7723
+						(502) 5834 8266
 					</li>
 					<li>
 						(502) 3001 0559
 					</li>
 				</ul>
-				<div id="contact-form">
-					<h2>
-						Ó ENVÍANOS UN CORREO POR AQUÍ
-					</h2>
-					<form name="form_contact" id="form_contact">
-						<div>
-							<fieldset>
-								<label for="name">Nombre</label>
-								<input type="text" name="name" required />
-							</fieldset>
-							<fieldset>
-								<label for="email">Correo</label>
-								<input type="email" name="email" required />
-							</fieldset>
-						</div>
+			</div>
+			<div class="form-contact">
+				<h3>O ENVIANOS UN MENSAJE POR AQUÍ</h3>
+				<form>
+					<div id="user-information">
 						<fieldset>
-							<label for="message">Mensaje</label>
-							<textarea name="message"></textarea>
+							<label>Nombre</label>
+							<input type="text" />
 						</fieldset>
-						<button>ENVIAR</button>
-					</form>
-				</div>
-			</div>
-		</section>
-		<footer class="relative">
-			<div class="relative" id="container-btn-top">
-				<a href="#" class="no-underline" id="btn-top">
-					<span class="icon-chevron-up"></span>
-				</a>
-			</div>
-			<h2 class="no-margin">Suscríbete a todas nuestras noticias</h2>
-			<div id="container-form-suscribe">
-				<form name="form_subscribe">
+						<fieldset>
+							<label>Correo</label>
+							<input type="email" />
+						</fieldset>
+					</div>
 					<fieldset>
-						<label for="name" class="block anchor">Nombre</label>
-						<input type="text" name="name" required class="block anchor" />
+						<label>Mensaje</label>
+						<textarea></textarea>
 					</fieldset>
-					<fieldset>
-						<label for="email" class="block anchor">Correo</label>
-						<input type="email" name="email" required class="block anchor" />
-					</fieldset>
-					<button>Suscríbete</button>
+					<button>ENVIAR</button>
 				</form>
 			</div>
-			<hr>
-			<h2 class="no-margin">
-				En Tikalopers te brindamos servicios profesionales de desarrollo web, aplicaciones móviles y social media marketing
-			</h2>
+		</section>
+		<section id="suscribe">
+			<div id="container-title-suscribe">
+				<h2>SUSCRÍBETE A TODAS NUESTRAS NOTICIAS Y ACTUALIZACIONES</h2>
+			</div>
+			<div id="container-form-suscribe">
+				<form>
+					<fieldset>
+						<input type="text"  placeholder="Nombre" />
+					</fieldset>
+					<fieldset>
+						<input type="email" placeholder="Email" />
+					</fieldset>
+					<button>SUSCRÍBETE</button>
+				</form>
+			</div>
+		</section>
+		<footer>
+			<div id="descrption-footer">
+				<p>En tikalopers te brindamos servicios profesionales de desarrollo web, aplicaciones móviles y marketing digital</p>
+			</div>
+			<div id="social-network-footer">
+				<h3>SÍGUENOS EN:</h3>
+				<a href="#">Facebook</a>
+				<a href="#">Twitter</a>
+			</div>
+			<button id="btn-up" class="icon-chevron-up"></button>
 		</footer>
 	</div>
+	<script src="lib/jquery.min.js"></script>
+	<script src="lib/serializeObject.js"></script>
 	<script src="js/app.js"></script>
 </body>
 </html>

@@ -1,0 +1,18 @@
+{
+	"name": "Tikalopers",
+	"description": "Sitio web de Tikalopers",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Alfonso",
+			"email": "alfonso.tikalopers@gmail.com"
+		},
+		{
+			"name": "Maximiliano",
+			"email": "maximiliano.lopezaquino@gmail.com"
+		}
+	],
+	"require": {
+		"mailgun/mailgun-php": "1.7.*"
+	}
+}
