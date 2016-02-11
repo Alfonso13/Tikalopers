@@ -20,35 +20,50 @@ img {
 	.container #header {
 		background: #fff;
 		padding: 1em;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 9999;
 	}
-	.container > header nav {
+	.container > header #header nav#nav-desktop {
 		display: inline-block;
 		width: 70%;
 		text-align: right;
 	}
-		.container > header nav ul {}
-			.container > header nav ul li {
+		.container > header #header nav#nav-desktop ul {}
+			.container > header #header nav#nav-desktop ul li {
 				display: inline-block;
 			}
-				.container > header nav ul li a {
+				.container > header #header nav#nav-desktop ul li a {
+					-o-transition: all 0.4s ease;
+					-webkit-transition: all 0.4s ease;
+					border-bottom: 2px solid transparent;
 					color: #333;
-					text-decoration: none;
-					font-weight: 300;
 					display: inline-block;
-					padding: 0.5em;
 					font-size: 1.1em;
+					font-weight: 300;
+					padding: 0.5em;
+					text-decoration: none;
+					transition: all 0.4s ease;
 				}
 
 	.container > header h1 {
-		font-size: 3.8em !important;
+		font-size: 3.8em;
 		font-weight: 200;
 		color: #fff;
-		margin-top: 2.8em;
-		padding: 0 1em;
+		margin: 0;
+		padding: 4em 1em 0 1em;
 	} 
 		.container > header h1 strong {
 			color: #3e3e3e;
 			font-weight: 800;
+		}
+	.container > header #mobile-nav {
+		position: relative;
+		z-index: 9999999;
+	}
+		.container > header #mobile-nav li {
+			display: block;
 		}
 
 .container #tikalopers {
@@ -76,7 +91,7 @@ img {
 
 .container #services {
 	background: #FFF;
-	padding: 5em 0 0 0;
+	padding: 3em 0 0 0;
 }
 	.container #services > h2 {
 		margin: 0;
@@ -127,7 +142,7 @@ img {
 			position: relative;
 			text-align: left;
 			vertical-align: top;
-			width: 19%;
+			width: 20%;
 		}
 		.container #services .service .block-service ul {
 			margin: 0;
@@ -240,12 +255,12 @@ img {
 		}
 
 .container #work {
-	background: #FFF;
-	padding: 3em 0;
+	background: #EEE;
+	padding: 3em 0 1em 0;
 	position: relative;
 }
 	.container #work #mobile-web-applications {
-		background: linear-gradient(0, #F5F5F5, #FFF);
+		/* background: linear-gradient(0, #F5F5F5, #FFF); */
 		text-align: right;
 		overflow:hidden;
 		margin-bottom: 3em;
@@ -539,11 +554,65 @@ img {
 		width: 30%;
 	}
 	.container footer #btn-up {
-		background: #FFEB3B;
-		color: #3c3c3c;
+		background: rgba(90, 90, 90, 0.7);
 		border-radius: 4px;
 		border: none;
-		outline: none;
-		padding: 0.5em;
+		color: #FFF;
 		font-size: 2em;
+		outline: none;
+		padding: 0.2em 0.35em;
+		position: fixed;
+		bottom: 15px;
+		right: 15px;
+	}
+
+
+.btn-mobile-nav {
+	z-index: 99999;
+    background: #FFF;
+    border-radius: 4px;
+    border: none;
+    color: transparent;
+    display: none;
+    font-size: 1.5em;
+    height: 1.85em;
+    outline: none;
+    position: fixed;
+    right: 18px;
+    top: 15px;
+    width: 2.2em;
+}
+.btn-mobile-nav::before {
+	position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    bottom: 0.5em;
+    left: 0.5em;
+    background: linear-gradient(#424242 20%, transparent 20%, transparent 39%, #424242 40%, #424242 60%, transparent 60%, transparent 80%, #424242 80%);
+    content: '';
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#mobile-nav {
+	background: #E0F2F1;
+	padding: 0 1.2em;
+	position: fixed;
+	text-align: center;
+	overflow: hidden;
+	-webkit-transition: max-height 0.4s ease;
+	-o-transition: max-height 0.4s ease;
+	transition: max-height 0.4s ease;
+}
+	#mobile-nav ul li a {
+		color: #333;
+		font-weight: 400;
+		font-size: 1em;
+		text-decoration: none;
+		display: inline-block;
+		padding: 0.7em 1em;
+		border-bottom: 2px solid transparent;
+		-o-transition: all 0.4s ease;
+		-webkit-transition: all 0.4s ease;
 	}

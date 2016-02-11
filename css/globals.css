@@ -23,6 +23,15 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+::-moz-selection {
+	background: #3F51B5;
+	color: #fff;
+}
+::selection {
+	background: #3F51B5;
+	color: #FFF;
+}
+
 .icon-chevron-down:before {
 	content: "\f0a3";
 }
@@ -115,4 +124,14 @@ fieldset input, fieldset textarea {
 }
 figure {
 	margin: 0;
+}
+.border-bottom-item-nav {
+	border-bottom: 2px solid #12CBBA !important;
+}
+
+.collapse-menu {
+	max-height: 0;
+}
+.no-collapse-menu {
+	max-height: 260px;
 }

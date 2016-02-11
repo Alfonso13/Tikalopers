@@ -3,7 +3,6 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
 	<meta name="description" content="" />
 	<title>Diseño Web Profesional | Apps Móviles | Social Media Marketing | Tikalopers</title>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,300italic,300,100italic,100,500,500italic,900italic,900,700' rel='stylesheet' type='text/css'>
@@ -24,15 +23,16 @@
 </head>
 <body>
 	<div class="container">
-		<header>
+		<header id="header-main">
 			<div id="header">
+				<button class="btn-mobile-nav"></button>
 				<figure class="logo inline-block-middle">
 					<img src="img/Logo Tikalopers.png" class="image-responsive" alt="">
 				</figure>
-				<nav class="inline-block-middle">
+				<nav class="inline-block-middle" id="nav-desktop">
 					<ul class="list-none menu-navigation">
 						<li>
-							<a data-transition="header" href="#">Inicio</a>
+							<a data-transition="header-main" class="border-bottom-item-nav" href="#">Inicio</a>
 						</li>
 						<li>
 							<a data-transition="tikalopers" href="#">Tikalopers</a>
@@ -53,6 +53,33 @@
 						</li>
 					</ul>
 				</nav>
+				<button class="btn-mobile-nav"></button>
+				<div id="mobile-nav" class="collapse-menu">
+					<nav>
+						<ul class="list-none">
+							<li>
+								<a data-transition="header-main" class="border-bottom-item-nav" href="#">Inicio</a>
+							</li>
+							<li>
+								<a data-transition="tikalopers" href="#">Tikalopers</a>
+							</li>
+							<li>
+								<a data-transition="services" href="#">Servicios</a>
+							</li>
+							<li>
+								<a data-transition="we" href="#">Nosotros</a>
+							</li>
+							<li>
+								<a href="#">Blog</a>
+							</li>
+							<li>
+								<a data-transition="contact" href="#">
+									<strong>Contacto</strong>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
 			</div>
 			<h1>
 				Construimos <strong>conexiones humanas</strong> de valor entre tu empresa y tus clientes
@@ -64,6 +91,29 @@
 			<p>
 				Tikalopers nace por la necesidad de crear un ambiente empresarial que sea capaz de comprender la verdadera importancia de las tecnologías web, aplicaciones móviles y marketing de medios sociales para lograr generar una verdadera conexión humana de valor entre cliente y empresa.
 			</p>
+		</section>
+		<section id="work">
+			<h2>NUESTRO TRABAJO</h2>
+			<article id="mobile-web-applications">
+				<div class="title-work">
+					<h2>Diseño Web y Aplicaciones Móviles</h2>
+				</div>
+				<div class="figure-work">
+					<figure>
+						<img src="img/work.png" class="responsive-image" alt="">
+					</figure>
+				</div>
+			</article>
+			<article id="social-media-marketing">
+				<div class="figure-work">
+					<figure>
+						<img src="img/social.png" class="responsive-image" alt="" />
+					</figure>
+				</div>
+				<div class="title-work">
+					<h2>Social Media Marketing</h2>
+				</div>
+			</article>
 		</section>
 		<section id="services">
 			<h2>SERVICIOS</h2>
@@ -83,7 +133,7 @@
 							<li>Actualizaciones de contenido</li>
 						</ul>
 						<div>
-							<button>PRESUPUESTO</button>
+							<button>COTIZAR</button>
 						</div>
 					</div>
 					<div class="block-service">
@@ -111,7 +161,7 @@
 							</li>
 						</ul>
 						<div>
-							<button>PRESUPUESTO</button>
+							<button>COTIZAR</button>
 						</div>
 					</div>
 					<div class="block-service">
@@ -142,7 +192,7 @@
 							</li>
 						</ul>
 						<div>
-							<button>PRESUPUESTO</button>
+							<button>COTIZAR</button>
 						</div>
 					</div>
 				</div>
@@ -179,7 +229,7 @@
 							</li>
 						</ul>
 						<div>
-							<button>PRESUPUESTO</button>
+							<button>COTIZAR</button>
 						</div>
 					</div>
 				</div>
@@ -207,7 +257,7 @@
 							</li>
 						</ul>
 						<div>
-							<button>PRESUPUESTO</button>
+							<button>COTIZAR</button>
 						</div>
 					</div>
 				</div>
@@ -221,32 +271,8 @@
 						Elige tu propio paquete de servicios con el que deseas innovar en el mercado.  Dale a tus clientes la oportundiad de conectarse con tu empresa en cualquier instante
 					</p>
 					<div>
-						<button>PRESUPUESTO</button>
+						<button>COTIZAR</button>
 					</div>
-				</div>
-			</article>
-		</section>
-		<section id="work">
-			<h2>NUESTRO TRABAJO</h2>
-			<h4></h4>
-			<article id="mobile-web-applications">
-				<div class="title-work">
-					<h2>Diseño Web y Aplicaciones Móviles</h2>
-				</div>
-				<div class="figure-work">
-					<figure>
-						<img src="img/work.png" class="responsive-image" alt="">
-					</figure>
-				</div>
-			</article>
-			<article id="social-media-marketing">
-				<div class="figure-work">
-					<figure>
-						<img src="img/social.png" class="responsive-image" alt="" />
-					</figure>
-				</div>
-				<div class="title-work">
-					<h2>Social Media Marketing</h2>
 				</div>
 			</article>
 		</section>

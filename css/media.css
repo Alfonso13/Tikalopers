@@ -1,0 +1,664 @@
+@media only screen and (max-width: 1025px) {
+	.container #services .service .block-service {
+		width: 25% !important;
+	}
+	.container > header .logo {
+		width: 22%;
+	}
+	.container > header h1 {
+		padding: 3em 1em 0 1em;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.container > header h1 {
+		padding: 2.8em 1em 0 1em !important;
+		font-size: 3.5em;
+	}
+	.container > header {
+		height: 520px;
+	}
+	.container > header .logo {
+		width: 25%;
+	}
+	.container #tikalopers {
+		padding: 2.5em 3em;
+	}
+		.container #tikalopers h2 {
+			font-size: 2.5em;
+		}
+		.container #tikalopers p {
+			font-size: 1.05em;
+		}
+	.container #work .title-work h2  {
+		font-size: 2.5em;
+	}
+		.container #work .title-work {
+			margin-top: 2em;
+		}
+		.container #work #social-media-marketing .title-work h2 {
+			margin-left: 1em;
+		}
+	.container #services {
+		padding: 2em 0 0 0;
+	}
+		.container #services .service .block-service {
+			width: 34% !important;
+		}
+		.container #services .package-services .block-service {
+			width: 30% !important;
+		}
+		.container #services .package-services {
+			padding: 2em 0 4em 0;
+		}
+		.container #services .package-services h2 {
+			font-size: 2.8em;
+		}
+	.container #we {
+		padding: 2em 0;
+	}
+		.container #we article figure {
+			height: 70px;
+			width: 70px;
+		}
+		.container #we h2  {
+			margin-bottom: 0 !important;
+		}
+	.container #contact {
+		padding: 2em 3em;
+	}
+		.container #contact .form-contact form {
+			width: 60%;
+		}
+	.container #suscribe #container-form-suscribe {
+		width: 35%;
+	}
+	.container footer #descrption-footer {
+		width: 50%;
+	}
+		.container footer {
+			padding: 2em 3em;
+		}
+}
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+	.container > header .logo {
+		width: 35% !important;
+	}
+	.container > header #header nav#nav-desktop {
+		display: none;
+	}
+	.btn-mobile-nav {
+		display: inline-block;
+	}
+	.container #header {
+		text-align: left;
+		padding: 0.6em 1em;
+	}
+	.container > header h1 {
+		font-size: 2.9em !important;
+		padding: 3em 1em 0 1em !important;
+	}
+	.container > header {
+		height: 430px !important;
+	}
+	.container #tikalopers {
+		padding: 2.5em 0;
+	}
+		.container #tikalopers h2 {
+			font-size: 2.5em;
+		}
+		.container #tikalopers p {
+			font-size: 1.1em;
+		}
+	.container #work {
+		padding: 2em 0 1em 0;
+	}
+		.container #work > h2 {
+			font-size: 2.5em !important;
+			margin-bottom: 0.5em !important;
+		}
+		.container #work .title-work h2 {
+			font-size: 2.4em;
+			padding: 0 2em;
+			margin-left: 0 !important;
+			margin-bottom: 0.3em;
+		}
+		.container #work .title-work, .container #work .figure-work {
+			display: inline-block;
+			text-align: center;
+		}
+		.container #work .title-work {
+			margin-top: 0;
+			width: 100%;
+		}
+		.container #work .figure-work {
+			width: 85%;
+		}
+		.container #work #mobile-web-applications {
+			margin-bottom: 0;
+			border-bottom: 1px solid #CCC;
+			padding-bottom: 2em;
+		}
+		.container #work #social-media-marketing {
+			margin-top: 1em;
+			margin-bottom: 0;
+		}
+	.container #services {
+		padding: 2em 0 0 0;
+	}
+		.container #services > h2 {
+			font-size: 2.5em;
+		}
+		.container #services .service > span {
+			margin: 1em 0 0.8em 0;
+		}
+		.container #services .service .block-service {
+			width: 40% !important;
+		}
+		.container #services .package-services {
+			padding: 2.5em 0 5em 0;
+		}
+		.container #services .package-services h2 {
+			font-size: 2.6em;
+		}
+		.container #services .package-services .block-service {
+			width: 40% !important;
+		}
+		.container #services .package-services .block-service button {
+			padding: 0.9em 1.5em;
+		}
+	.container #we {
+		padding: 2em 0;
+	}
+		.container #we h2 {
+			margin-bottom: 0;
+		}
+		.container #we article figure {
+			width: 60px;
+			height: 60px;
+		}
+	.container #contact {
+		padding: 2em 3em;
+	}
+		.container #contact .social-network ul li {
+			width: 34%;
+			margin-bottom: 0.6em;
+		}
+		.container #contact .phones {
+			margin-top: 1em;
+		}
+		.container #contact .form-contact form {
+			width: 80%;
+		}
+	.container #suscribe {
+		padding: 2.5em 0;
+	}
+		.container #suscribe #container-title-suscribe {
+			width: 100%;
+			text-align: center;
+		}
+		.container #suscribe #container-title-suscribe h2 {
+			margin-top: 0;
+		}
+		.container #suscribe #container-form-suscribe {
+			width: 50%;
+		}
+	.container footer {
+		padding: 2em 1em;
+	}
+		.container footer #descrption-footer {
+			width: 50%;
+			padding-right: 1.5em;
+		}
+		.container footer #social-network-footer {
+			padding-left: 1.5em;
+			width: 30%;
+		}
+}
+@media only screen and (max-width: 568px) and (orientation: landscape) {
+	body {
+		font-size: 16px;
+	}
+	.container > header {
+		height: 340px;
+	}
+	.container > header .logo {
+		width: 40%;
+	}
+	.container > header #header nav#nav-desktop {
+		display: none;
+	}
+	.btn-mobile-nav {
+		display: inline-block;
+	}
+	.container #header {
+		text-align: left;
+		padding: 0.6em 1em;
+	}
+	.container > header h1 {
+		font-size: 2.5em;
+		padding: 3em 1em 0 1em;
+	}
+	.container #tikalopers {
+		padding: 2em;
+	}
+		.container #tikalopers p {
+			padding: 0 3em;
+			font-size: 1.1em;
+		}
+		.container #tikalopers h2 {
+			font-size: 2.5em;
+		}
+	.container #work {
+		padding: 2em 0 1em 0;
+	}
+		.container #work > h2 {
+			font-size: 2.5em;
+			margin-bottom: 0.2em;
+		}
+		.container #work .title-work, .container #work .figure-work {
+			display: block;
+			width: 100%;
+			text-align: center;
+		}
+		.container #work .title-work {
+			margin-top: 0;
+		}
+		.container #work .title-work h2 {
+			font-size: 2.5em;
+			padding: 0.2em 0.8em 0.5em 0.8em;
+		}
+		.container #work #mobile-web-applications .figure-work {
+			padding: 0 0.5em 2em 1.5em;
+			border-bottom: 1px solid #CCC;
+		}
+		.container #work #social-media-marketing {
+			margin-top: 1em;
+			margin-bottom: 0;
+			text-align: center !important;
+		}
+		.container #work #mobile-web-applications {
+			margin-bottom: 0;
+			text-align: center;
+		}
+			.container #work #social-media-marketing .figure-work {
+				padding: 0;
+				margin: 0;
+				width: 85%;
+				display: inline-block;
+			}
+			.container #work #social-media-marketing .title-work h2 {
+				margin-left: 0;
+			}
+	.container #services {
+		padding: 2em 0 0 0;
+	}
+		.container #services .service .block-service {
+			width: 42% !important;
+		}
+		.container #services .package-services h2 {
+			font-size: 2.5em;
+		}
+		.container #services .package-services {
+			padding: 2.5em 0 5em 0;
+		}
+		.container #services .package-services .block-service {
+			width: 50%;
+		}
+	.container #we {
+		padding: 2em 0;
+	}
+		.container #we article figure {
+			width: 70px;
+			height: 70px;
+		}
+		.container #we h2 {
+			margin-bottom: 0;
+		}
+	.container #contact {
+		padding: 2em 3em;
+	}
+		.container #contact .social-network ul li {
+			width: 34%;
+			margin-bottom: 0.5em;
+		}
+		.container #contact .phones {
+			margin-top: 1.5em;
+		}
+		.container #contact .form-contact form {
+			width: 80%;
+		}
+	.container #suscribe {
+		padding: 3em 0;
+	}
+		.container #suscribe #container-title-suscribe {
+			width: 100%;
+		}
+		.container #suscribe #container-form-suscribe {
+			width: 60%;
+		}
+	.container footer {
+		padding: 1em 2em;
+	}
+		.container footer #descrption-footer {
+			width: 50%;
+			padding-right: 0;
+		}
+		.container footer #social-network-footer {
+			width: 30%;
+			padding-left: 2em;
+		}
+	  
+}
+
+@media only screen and (max-width: 480px) {
+	.container > header #header nav#nav-desktop {
+		display: none;
+	}
+	.container > header .logo {
+		width: 40%;
+		padding: 0.5em;
+	}
+	.container #header {
+		text-align: left;
+		padding: 0.5em;
+	}
+	.btn-mobile-nav {
+		display: inline-block;
+	}
+	.container > header h1 {
+		padding: 2.2em 1em 0 1em;
+		font-size: 2.5em;
+	}
+	.container > header {
+		height: 380px !important;
+	}
+	.container #tikalopers {
+		padding: 2em;
+	}
+		.container #tikalopers p {
+			padding: 0 2em;
+		}
+	.container #work {
+		padding: 2em 0 1em 0;
+	}
+		.container #work > h2 {
+			font-size: 2.5em;
+		}
+		.container #work .title-work, .container #work .figure-work {
+			display: block;
+			width: 100%;
+		}
+		.container #work .title-work {
+			margin-top: 0;
+		}
+		.container #work .title-work h2 {
+			font-size: 2.5em;
+			padding: 0.2em 0.8em 0.5em 0.8em;
+		}
+		.container #work #mobile-web-applications .figure-work {
+			padding: 0 0.5em 2em 1.5em;
+			border-bottom: 1px solid #CCC;
+		}
+		.container #work #social-media-marketing {
+			margin-top: 1em;
+			margin-bottom: 0;
+		}
+		.container #work #mobile-web-applications {
+			margin-bottom: 0;
+		}
+		.container #work #social-media-marketing .figure-work {
+			padding: 0;
+			margin: 0;
+		}
+		.container #work #social-media-marketing .title-work h2 {
+			margin-left: 0;
+		}
+	.container #services {
+		padding: 1.5em 0 0 0;
+	}
+		.container #services > h2 {
+			font-size: 2.5em;
+		}
+		.container #services .service .block-service {
+			width: 50% !important;
+		}
+		.container #services .service > span {
+			margin: 1em 0 0.8em 0;
+		}
+		.container #services .package-services h2 {
+			font-size: 2em;
+		}
+		.container #services .package-services .block-service {
+			width: 50%;
+		}
+			.container #services .package-services .block-service button {
+				padding: 0.9em 1.5em;
+			}
+	.container #we {
+		padding: 2em 0;
+	}
+		.container #we article > div {
+			margin: 0 0.5em;
+		}
+		.container #we article figure {
+			width: 50px;
+			height: 50px;
+		}
+		.container #we article h4 {
+			font-size: 1.3em;
+		}
+	.container #contact {
+		padding: 2em 0;
+	}
+		.container #contact .social-network ul {
+			margin-top: 1em;
+		}
+		.container #contact .social-network ul li {
+			width: auto;
+			margin: 0.5em 1em;
+		}
+		.container #contact .phones {
+			margin-top: 1.5em;
+		}
+		.container #contact .form-contact form {
+			width: 80%;
+		}
+	.container #suscribe {
+		padding: 1em 0 3.5em 0;
+	}
+		.container #suscribe #container-title-suscribe {
+			width: 100%;
+			text-align: center;
+		}
+		.container #suscribe #container-form-suscribe {
+			width: 60%;
+		}
+	.container footer {
+		padding: 1em 2em;
+	}
+		.container footer #descrption-footer {
+			width: 50%;
+		}
+		.container footer #social-network-footer {
+			padding-left: 1em;
+			width: 34%;
+		}
+
+}
+
+@media only screen and (max-width: 320px) {
+	body {
+		font-size: 1em;
+	}
+	.container > header {
+		height: 460px;
+	}
+	.container > header h1 {
+		font-size: 2em !important;
+		padding: 3em 1em 0 1em !important;
+	}
+	.container > header .logo {
+		width: 60% !important;
+		padding: 0.5em !important;
+		cursor: pointer;
+	}
+	.container > header #header nav#nav-desktop {
+		display: none;
+	}
+	.btn-mobile-nav {
+		display: inline-block;
+	}
+	.container #header {
+		text-align: left;
+	}
+	.container #tikalopers h2 {
+		font-size: 2em;
+	}
+	.container #tikalopers {
+		padding: 3em;
+	}
+	.container #tikalopers p {
+		padding: 0 0.5em !important;
+		font-size: 1em;
+	}
+	.container #tikalopers h3 {
+		font-size: 1.2em;
+	}
+	.container #work > h2 {
+		padding: 0;
+		font-size: 1.8em !important;
+		margin: 0;
+	}
+	.container #work {
+		padding: 1.5em 0 1em 0;
+	}
+	.container #work .title-work {
+		margin-top: 1em;
+	}
+	.container #work #mobile-web-applications .figure-work {
+		padding: 0 0.5em 1.5em 0.5em;
+		border-bottom: 1px solid #CCC;
+	}
+	.container #work .title-work, .container #work .figure-work {
+		display: block;
+		width: 100%;
+	}
+	.container #work #mobile-web-applications {
+		margin-bottom: 0;
+	}
+	.container #work #social-media-marketing {
+		margin-top: 1em;
+		margin-bottom: 0;
+	}
+		.container #work #social-media-marketing .figure-work {
+			margin-left: 0;
+			padding: 0;
+		}
+		.container #work #social-media-marketing .title-work{
+			margin-top: 0 !important;	
+		}
+			.container #work #social-media-marketing .title-work h2 {
+				margin-left: 0;
+			}
+	.container #work .title-work h2 {
+		font-size: 2em !important;
+		padding: 0.2em 0.8em 0.5em 0.8em;
+	}
+	.container #services {
+		padding: 1.5em 0 0 0;
+	}
+		.container #services > h2 {
+			font-size: 2.5em;
+		}
+		.container #services .service .block-service {
+			width: 85% !important;
+			margin: 0 0 1em 0;
+		}
+		.container #services .package-services {
+			padding: 2em 0 3em 0;
+		}
+			.container #services .package-services h2 {
+				font-size: 2em;
+			}
+			.container #services .package-services .block-service {
+				width: 75% !important;
+			}
+	.container #we {
+		padding: 2em 0 3em 0;
+	}
+		.container #we article > div {
+			margin: 1em 0 !important;
+		}
+		.container #we h2 {
+			font-size: 1.8em;
+			margin: 0;
+		}
+		.container #we article figure {
+			width: 70px;
+			height: 70px;
+		}
+	.container #contact > h2 {
+		font-size: 2.3em;
+	}
+		.container #contact {
+			padding: 1.5em 0;
+		}
+			.container #contact .social-network ul li {
+				width: auto;
+				margin-bottom: 1em;
+			}
+		.container #contact .phones {
+			margin-top: 1em;
+		}
+			.container #contact .phones h3 {
+				margin: 0 0 0.5em 0 ;
+			}
+		.container #contact .form-contact h3 {
+			font-size: 1.2em;
+		}
+		.container #contact .form-contact form {
+			width: 80%;
+		}
+	.container #contact .form-contact form button {
+		padding: 0.7em 1em;
+	}
+	.container #contact .social-network ul {
+		margin-top: 1em;
+	}
+	.container #suscribe {
+		padding: 1em 0;
+	}
+		.container #suscribe #container-title-suscribe {
+			width: 100%;
+			padding: 0 1em;
+		}
+		.container #suscribe #container-title-suscribe h2 {
+			font-size: 1.5em;
+		}
+	.container #suscribe #container-form-suscribe {
+		width: 90%;
+	}
+	.container footer {
+		padding: 0;
+	}
+	.container footer #descrption-footer {
+		width: 80% !important;
+		border-bottom: 1px solid #fff;
+		padding: 1em 0;
+	}
+	.container footer #social-network-footer {
+		width: 60% !important;
+		border-left: none;
+		padding: 1em 0 3em 0;
+		text-align: left;
+	}
+		.container footer #social-network-footer h3{
+			margin: 0;
+			width: 100%;
+		}
+		.container footer #btn-up {
+			vertical-align: middle;
+		}
+}
