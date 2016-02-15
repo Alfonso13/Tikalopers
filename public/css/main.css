@@ -423,11 +423,10 @@ img {
 			display: inline-block;
 			width: 30%;
 		}
-			.container #contact .form-contact form #user-information {
-				
-			}
+			.container #contact .form-contact form #user-information {}
 				.container #contact .form-contact form fieldset {
 					width: 100%;
+					position: relative;
 					padding: 0;
 					margin: 0 0 1em 0;
 				}
@@ -457,11 +456,13 @@ img {
 					resize: none;
 				}
 					.container #contact .form-contact form button {
-						background: #26A69A;
+						background: #11BBAB;
 						border: none;
 						color: #fff;
-						padding: 0.8em 1em;
-						border-radius: 3px;
+						font-size: 1em;
+						cursor: pointer;
+						padding: 0.7em 1em;
+						outline: none;
 					}
 
 .container #suscribe {
@@ -476,6 +477,7 @@ img {
 	}
 		.container #suscribe #container-form-suscribe fieldset {
 			margin: 0.8em 0;
+			position: relative;
 			padding: 0;
 		}
 			.container #suscribe #container-form-suscribe fieldset input {
@@ -616,3 +618,124 @@ img {
 		-o-transition: all 0.4s ease;
 		-webkit-transition: all 0.4s ease;
 	}
+
+#quotation {
+	padding: 13% 5%;
+}
+#quotation div.modal-container {
+	height: 485px;
+	padding: 1.5em 0;
+}
+	#quotation div.modal-container > p {
+		margin: 0;
+	}
+		#quotation div.modal-container > p small {
+			font-weight: 400;
+			color: #777;
+		}
+	#quotation div.modal-container form {
+		margin-top: 1em;
+		text-align: center;
+	}
+	#quotation div.modal-container form fieldset {
+		padding: 0;
+		position: relative;
+		margin: 0 0 0.8em 0;
+		width: 85%;
+		display: inline-block;
+	}
+		section.modal div.modal-container form fieldset input, section.modal div.modal-container form fieldset textarea {
+			font-size: 0.98em;
+			padding: 0.7em;
+			color: #444;
+			width: 100%;
+			font-weight: 300;
+		}
+			#quotation div.modal-container form fieldset span:before {
+				top: -6px;
+			}
+			::-webkit-input-placeholder {
+				color: #AAA;
+			}
+			#quotation div.modal-container form fieldset textarea {
+				height: 90px;
+				resize: none;
+			}
+		#quotation div.modal-container form button {
+			font-size: 0.97em;
+		}
+		#quotation div.modal-container form .container-buttons {
+		  margin: 0.4em 0 !important;
+		  padding: 0.4em;
+		}
+#quotation #service-selected span {
+	background: #26A69A;
+	border-radius: 100%;
+	color: #fff;
+	display: inline-block;
+	font-size: 1.8em;
+	padding: 0.7em;
+}
+#quotation h3 {
+	margin: 0.2em 0 0 0;
+	color: #333;
+}
+
+#quotation-package {
+	padding: 10% 5%;
+}
+	#quotation-package div.modal-container {
+		height: 510px;
+		padding: 2em 0;
+	}
+		#quotation-package div.modal-container h3 {
+			color: #26A69A;
+			margin: 0;
+			font-size: 1.4em;
+		}
+		#quotation-package #selection-services p {
+			padding: 0 0.8em;
+		}
+		#quotation-package form fieldset {
+			position: relative;
+			margin: 0.7em 0 0 0;
+			padding: 0;
+			display: inline-block;
+			width: 85%;
+		}
+		#quotation-package form fieldset span:before {
+			top: -6px;
+		}
+
+#selection-services {
+  margin-top: 0;
+}
+	#selection-services p {
+		font-size: 0.95em;
+		font-weight: 300;
+		margin-bottom: 1em;
+		color: #333;
+	}
+#selection-services ul li {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+}
+
+#selection-services ul li label {
+  font-weight: 300;
+}
+#selection-services ul li span{
+  	background: #F9F9F9;
+    border: 1px solid #BFBFBF;
+    border-radius: 100%;
+    text-decoration: none;
+    color: #484848;
+    cursor: pointer;
+    margin: 0;
+    line-height: 1.8em;
+    font-size: 1.6em;
+    padding: 0.5em;
+    width: 45px;
+    height: 45px;
+}

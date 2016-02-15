@@ -1,0 +1,93 @@
+section.modal div.modal-container {
+  background: #FFF;
+  box-shadow: 1px 3px 15px #333;
+  position: relative;
+}
+section.modal div.modal-container form button {
+  background: #11BBAB;
+  border: 0;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 300;
+  margin-top: 0.2em;
+  outline: none;
+  padding: 0.7em 1em;
+}
+section.modal div.modal-container a.close {
+  color: #F44336;
+  cursor: pointer;
+  font-weight: bold;
+  position: absolute;
+  right: 0.8em;
+  top: 0.6em;
+  font-size: 1.1em;
+  z-index: 9999;
+}  
+section.modal {
+  position: fixed;
+  z-index: 99999;
+  -webkit-box-sizing: border-box;
+  background: rgba(0,0,0,0.65);
+  top: 0;
+  right: 0;
+  left: 0;
+  overflow-y: scroll;
+  bottom: 0;
+  transition: all 0.5s ease;
+}
+
+
+section.modal div.modal-container form .container-buttons {
+  margin: 0.4em 0 !important;
+  padding: 0.4em;
+}
+
+section.modal div.modal-container form fieldset input, section.modal div.modal-container form fieldset textarea {
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #E2E2E2;
+  display: inline-block !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.5em;
+}
+
+
+.no-visibility {
+  opacity: 0;
+  visibility: hidden;
+}
+.visibility {
+    opacity: 1;
+    visibility: visible;
+}
+
+.selectedService {}
+  .selectedService span {
+    color: #515151 !important;
+    border-bottom: 5px solid #4DB6AC !important;
+    font-weight: 700;
+  }
+  .selectedService label {    
+    font-weight: 500 !important;
+  }
+
+
+.container-success-message, .container-error-message {
+  margin: 1em 0;
+  opacity: 0;
+  width: 100% !important;
+}
+
+.container-success-message p, .container-error-message p {
+  font-weight: 300;
+}
+
+.container-success-message .icon-checkmark, .container-error-message .icon-sad {
+  color: #11BBAB;
+}
+ 
+.container-error-message .icon-sad, .container-success-message .icon-checkmark {
+  font-size: 3em;
+}

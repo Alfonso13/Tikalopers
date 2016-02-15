@@ -14,5 +14,10 @@
 	],
 	"require": {
 		"mailgun/mailgun-php": "1.7.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Acme\\": "src/Tikalopers/Mailgun/"
+		}	
 	}
 }

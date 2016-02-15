@@ -6,11 +6,11 @@
 	<meta name="description" content="" />
 	<title>Diseño Web Profesional | Apps Móviles | Social Media Marketing | Tikalopers</title>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,300italic,300,100italic,100,500,500italic,900italic,900,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/normalize.css" />
-	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/modals.css" />
-	<link rel="stylesheet" href="css/media.css" />
-	<link rel="stylesheet" href="css/globals.css" />
+	<link rel="stylesheet" href="publci/css/normalize.css" />
+	<link rel="stylesheet" href="public/css/main.css" />
+	<link rel="stylesheet" href="public/css/media.css" />
+	<link rel="stylesheet" href="public/css/modals.css" />
+	<link rel="stylesheet" href="public/css/globals.css" />
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -22,12 +22,110 @@
 	</script>
 </head>
 <body>
+	<section class="modal no-visibility" id="quotation">
+		<div class="modal-container relative">
+			<a class="close">X</a>
+			<div id="service-selected" data-type=""></div>
+			<form id="form_quotation" name="form_quotation">
+				<fieldset>
+					<input type="text" name="name" placeholder="Nombre" required />
+					<span class="align-center"></span>
+				</fieldset>
+				<fieldset>
+					<input type="email" name="email" placeholder="Correo" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required />
+					<span class="align-center"></span>
+				</fieldset>
+				<fieldset>
+					<input type="text" name="company" placeholder="Empresa" required />
+					<span class="align-center"></span>
+				</fieldset>
+				<fieldset>
+					<input type="url" name="site" placeholder="Sitio Web (si tuviera)" />
+					<span class="align-center"></span>
+				</fieldset>
+				<fieldset>
+					<textarea name="message" placeholder="Mensaje" required></textarea>
+					<span class="align-center"></span>
+				</fieldset>
+				<div class="container-buttons">
+					<button id="btn-quote-send">ENVIAR</button>
+				</div>
+				<div class="container-success-message hidden">
+					<a href="#" class="icon-checkmark no-underline"></a>
+					<p class="no-margin">Enviado</p>
+				</div>
+				<div class="container-error-message hidden">
+					<a href="#" class="icon-sad no-underline"></a>
+					<p class="no-margin">Intenta enviarlo nuevamente </p>
+				</div>
+			</form>
+		</div>	
+	</section>
+	<section class="modal no-visibility" id="quotation-package">
+		<div class="modal-container">
+			<a class="close">X</a>
+			<div id="cotizacion" class="align-center">
+				<h3>PAQUETE DE SERVICIOS</h3>
+				<div id="selection-services">
+					<p class="align-center no-margin">
+						Selecciona los servicios que deseas adquirir con nosotros (selecciona por lo menos dos)
+					</p>
+					<ul class="list-none no-margin no-padding">
+						<li class="item-service-selected">
+							<span data-service-id="1" class="inline-block icon-display"></span>
+						</li>
+						<li class="item-service-selected">
+							<span data-service-id="3" class="inline-block icon-mobile"></span>
+						</li>
+						<li class="item-service-selected">
+							<span data-service-id="4" class="inline-block icon-bullhorn"></span>
+						</li>
+					</ul>
+				</div>
+				<form name="form-quotation-package" id="form-quotation-package">
+					<hr class="block" style="border: 1px solid #DEDEDE;margin-top: 1em;width: 90%;" />
+					<div id="container-form-service">
+						<fieldset>
+							<input type="text" id="cotizacion_nombre" name="name" disabled placeholder='Nombre' autofocus="autofocus" required />
+							<span class="align-center"></span>
+						</fieldset>
+						<fieldset>
+							<input type="email" name="email" placeholder='Correo' disabled required />
+							<span class="align-center"></span>
+						</fieldset>
+						<fieldset>
+							<input type="text" name="company" placeholder='Empresa' disabled required />
+							<span class="align-center"></span>
+						</fieldset>
+						<fieldset>
+							<input type="url" name="site" placeholder='Sitio Web (si tuviera)' disabled />
+							<span class="align-center"></span>
+						</fieldset>
+						<fieldset>
+							<textarea name="message" class="block no-padding" placeholder='Mensaje' disabled></textarea>
+						</fieldset>
+					</div>
+					<div class="align-center container-buttons">
+						<button class="no-margin" id="btn-cotizar-paquete" disabled>COTIZAR</button>
+					</div>
+					<div class="container-success-message hidden">
+						<a href="#" class="icon-checkmark no-underline"></a>
+						<p class="no-margin">Enviado</p>
+					</div>
+					<div class="container-error-message hidden">
+						<a href="#" class="icon-sad no-underline"></a>
+						<p class="no-margin">Intenta enviarlo nuevamente </p>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
 	<div class="container">
 		<header id="header-main">
 			<div id="header">
 				<button class="btn-mobile-nav"></button>
 				<figure class="logo inline-block-middle">
-					<img src="img/Logo Tikalopers.png" class="image-responsive" alt="">
+					<img src="public/img/Logo Tikalopers.png" class="image-responsive" alt="">
 				</figure>
 				<nav class="inline-block-middle" id="nav-desktop">
 					<ul class="list-none menu-navigation">
@@ -100,14 +198,14 @@
 				</div>
 				<div class="figure-work">
 					<figure>
-						<img src="img/work.png" class="responsive-image" alt="">
+						<img src="public/img/work.png" class="responsive-image" alt="">
 					</figure>
 				</div>
 			</article>
 			<article id="social-media-marketing">
 				<div class="figure-work">
 					<figure>
-						<img src="img/social.png" class="responsive-image" alt="" />
+						<img src="public/img/social.png" class="responsive-image" alt="" />
 					</figure>
 				</div>
 				<div class="title-work">
@@ -121,8 +219,8 @@
 				<span class="icon-display"></span>
 				<h2>WEB</h2>
 				<p>No creamos sitios web para tu empresa.  Creamos verdaderas experiencias online a tus clientes</p>
-				<div class="container-block-services">
-					<div class="block-service">
+				<div class="container-block-services" >
+					<div class="block-service" data-type="0">
 						<header>
 							<h2>BÁSICO</h2>
 						</header>
@@ -133,10 +231,10 @@
 							<li>Actualizaciones de contenido</li>
 						</ul>
 						<div>
-							<button>COTIZAR</button>
+							<button class="btn-quote">COTIZAR</button>
 						</div>
 					</div>
-					<div class="block-service">
+					<div class="block-service" data-type="1">
 						<header>
 							<h2>ESTÁNDAR</h2>
 						</header>
@@ -161,10 +259,10 @@
 							</li>
 						</ul>
 						<div>
-							<button>COTIZAR</button>
+							<button class="btn-quote">COTIZAR</button>
 						</div>
 					</div>
-					<div class="block-service">
+					<div class="block-service" data-type="2">
 						<header>
 							<h2>PRO</h2>
 						</header>
@@ -192,7 +290,7 @@
 							</li>
 						</ul>
 						<div>
-							<button>COTIZAR</button>
+							<button class="btn-quote">COTIZAR</button>
 						</div>
 					</div>
 				</div>
@@ -213,7 +311,7 @@
 				<h2>MÓVIL</h2>
 				<p>No hacemos apps.  Hacemos que tus clientes siempre lleven tu empresa en alguna parte de ellos</p>
 				<div class="container-block-services">
-					<div class="block-service">
+					<div class="block-service" data-type="3">
 						<header>
 							<h2>HÍBRIDA</h2>
 						</header>
@@ -229,7 +327,7 @@
 							</li>
 						</ul>
 						<div>
-							<button>COTIZAR</button>
+							<button class="btn-quote">COTIZAR</button>
 						</div>
 					</div>
 				</div>
@@ -239,7 +337,7 @@
 				<h2>MARKETING</h2>
 				<p>No es solo una red social.  Es un ambiente donde tus clientes esperando contenido de valor</p>
 				<div class="container-block-services">
-					<div class="block-service">
+					<div class="block-service" data-type="4">
 						<header>
 							<h2>
 								SOCIAL MEDIA
@@ -257,7 +355,7 @@
 							</li>
 						</ul>
 						<div>
-							<button>COTIZAR</button>
+							<button class="btn-quote">COTIZAR</button>
 						</div>
 					</div>
 				</div>
@@ -271,7 +369,7 @@
 						Elige tu propio paquete de servicios con el que deseas innovar en el mercado.  Dale a tus clientes la oportundiad de conectarse con tu empresa en cualquier instante
 					</p>
 					<div>
-						<button>COTIZAR</button>
+						<button id="btn-quote-package">COTIZAR</button>
 					</div>
 				</div>
 			</article>
@@ -286,8 +384,8 @@
 					<h4>Maximiliano López</h4>
 					<h3>CEO</h3>
 					<div class="icons-network">
-						<a class="icon-facebook" href="#"></a>
-						<a class="icon-twitter" href="#"></a>
+						<a class="icon-facebook" href="https://www.facebook.com/maximiliano.jose.francisco.lopez.aquino" target="_blank"></a>
+						<a class="icon-twitter" href="https://twitter.com/MAXLOPERS" target="_blank"></a>
 					</div>
 				</div>
 				<div>
@@ -297,8 +395,8 @@
 					<h4>Alfonso Piedrasanta</h4>
 					<h3>CTO</h3>
 					<div class="icons-network">
-						<a class="icon-facebook" href="#"></a>
-						<a class="icon-twitter" href="#"></a>
+						<a class="icon-facebook" href="https://www.facebook.com/ponshixx"></a>
+						<a class="icon-twitter" href="https://twitter.com/ponchofront"></a>
 					</div>
 				</div>
 			</article>
@@ -339,22 +437,35 @@
 			</div>
 			<div class="form-contact">
 				<h3>O ENVIANOS UN MENSAJE POR AQUÍ</h3>
-				<form>
+				<form id="form-send-message" name="form-send-message">
 					<div id="user-information">
 						<fieldset>
 							<label>Nombre</label>
-							<input type="text" />
+							<input type="text" name="name" required />
+							<span class="align-center"></span>
 						</fieldset>
 						<fieldset>
 							<label>Correo</label>
-							<input type="email" />
+							<input type="email" name="email" />
+							<span class="align-center"></span>
 						</fieldset>
 					</div>
 					<fieldset>
 						<label>Mensaje</label>
-						<textarea></textarea>
+						<textarea name="message" required></textarea>
+						<span class="align-center"></span>
 					</fieldset>
-					<button>ENVIAR</button>
+					<div class="container-buttons">
+						<button id="btn-send-message">ENVIAR</button>
+					</div>
+					<div class="container-success-message hidden">
+						<a href="#" class="icon-checkmark no-underline"></a>
+						<p class="no-margin">Enviado</p>
+					</div>
+					<div class="container-error-message hidden">
+						<a href="#" class="icon-sad no-underline"></a>
+						<p class="no-margin">Intenta enviarlo nuevamente </p>
+					</div>
 				</form>
 			</div>
 		</section>
@@ -386,8 +497,8 @@
 			<button id="btn-up" class="icon-chevron-up"></button>
 		</footer>
 	</div>
-	<script src="lib/jquery.min.js"></script>
-	<script src="lib/serializeObject.js"></script>
-	<script src="js/app.js"></script>
+	<script src="public/lib/jquery.min.js"></script>
+	<script src="public/lib/serializeObject.js"></script>
+	<script src="public/js/app.js"></script>
 </body>
 </html>

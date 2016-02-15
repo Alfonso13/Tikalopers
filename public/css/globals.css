@@ -1,12 +1,12 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?qrf84r');
-	src:url('fonts/icomoon.eot?qrf84r#iefix') format('embedded-opentype'),
-		url('fonts/icomoon.ttf?qrf84r') format('truetype'),
-		url('fonts/icomoon.woff?qrf84r') format('woff'),
-		url('fonts/icomoon.svg?qrf84r#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    src:    url('fonts/icomoon.eot?6fsl0x');
+    src:    url('fonts/icomoon.eot?6fsl0x#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?6fsl0x') format('truetype'),
+        url('fonts/icomoon.woff?6fsl0x') format('woff'),
+        url('fonts/icomoon.svg?6fsl0x#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -33,34 +33,37 @@
 }
 
 .icon-chevron-down:before {
-	content: "\f0a3";
+    content: "\e902";
 }
 .icon-chevron-up:before {
-	content: "\f0a2";
+    content: "\e903";
 }
 .icon-bullhorn:before {
-	content: "\e800";
+    content: "\e904";
 }
 .icon-stack:before {
-	content: "\e801";
+    content: "\e905";
 }
 .icon-display:before {
-	content: "\e802";
+    content: "\e906";
 }
 .icon-mobile:before {
-	content: "\e803";
+    content: "\e907";
 }
-.icon-menu:before {
-	content: "\e804";
+.icon-sad:before {
+    content: "\e908";
+}
+.icon-checkmark:before {
+    content: "\e909";
 }
 .icon-facebook:before {
-	content: "\e805";
+    content: "\e900";
 }
 .icon-twitter:before {
-	content: "\e806";
+    content: "\e901";
 }
 .icon-skype:before {
-	content: "\e807";
+    content: "\e90a";
 }
 
 
@@ -134,4 +137,26 @@ figure {
 }
 .no-collapse-menu {
 	max-height: 260px;
+}
+.field-error:before {
+	color: #fff;
+    background: #EF5350;
+    border-radius: 100%;
+    width: 20px;
+    height: 21px;
+    font-weight: bold;
+    font-size: 16px !important;
+    content: "x";
+    position: absolute;
+    right: 10px;
+    /* top: 17px; */
+    z-index: 9999;
+}
+.hidden {
+	display: none !important;
+}
+.selectedService {
+	background: #26A69A !important;
+	border: none !important;
+	color: #fff !important;
 }

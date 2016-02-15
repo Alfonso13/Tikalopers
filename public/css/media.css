@@ -1,5 +1,20 @@
+@media only screen and (min-width: 1026px) {
+	#quotation {
+		padding: 5% 20%;
+	}
+	#quotation-package {
+		padding: 4% 30% !important;
+	}
+	#quotation-package div.modal-container {
+		height: 480px;
+	}
+}
+
 @media only screen and (max-width: 1025px) {
 	.container #services .service .block-service {
+		width: 25% !important;
+	}
+	.container #services .package-services .block-service {
 		width: 25% !important;
 	}
 	.container > header .logo {
@@ -7,6 +22,12 @@
 	}
 	.container > header h1 {
 		padding: 3em 1em 0 1em;
+	}
+	#quotation {
+		padding: 10% 20%;
+	}
+	#quotation-package {
+		padding: 10% 18% !important;
 	}
 }
 
@@ -271,7 +292,6 @@
 		}
 		.container #work #mobile-web-applications .figure-work {
 			padding: 0 0.5em 2em 1.5em;
-			border-bottom: 1px solid #CCC;
 		}
 		.container #work #social-media-marketing {
 			margin-top: 1em;
@@ -304,7 +324,7 @@
 			padding: 2.5em 0 5em 0;
 		}
 		.container #services .package-services .block-service {
-			width: 50%;
+			width: 50% !important;
 		}
 	.container #we {
 		padding: 2em 0;
@@ -399,7 +419,6 @@
 		}
 		.container #work #mobile-web-applications .figure-work {
 			padding: 0 0.5em 2em 1.5em;
-			border-bottom: 1px solid #CCC;
 		}
 		.container #work #social-media-marketing {
 			margin-top: 1em;
@@ -431,7 +450,7 @@
 			font-size: 2em;
 		}
 		.container #services .package-services .block-service {
-			width: 50%;
+			width: 50% !important;
 		}
 			.container #services .package-services .block-service button {
 				padding: 0.9em 1.5em;
@@ -539,7 +558,6 @@
 	}
 	.container #work #mobile-web-applications .figure-work {
 		padding: 0 0.5em 1.5em 0.5em;
-		border-bottom: 1px solid #CCC;
 	}
 	.container #work .title-work, .container #work .figure-work {
 		display: block;
@@ -547,6 +565,7 @@
 	}
 	.container #work #mobile-web-applications {
 		margin-bottom: 0;
+		padding-bottom: 0em;
 	}
 	.container #work #social-media-marketing {
 		margin-top: 1em;
@@ -661,4 +680,10 @@
 		.container footer #btn-up {
 			vertical-align: middle;
 		}
+	#quotation-package {
+		padding: 10% 5% !important;
+	}
+	#quotation {
+		padding: 13% 5%;
+	}
 }
