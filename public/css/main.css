@@ -1,3 +1,6 @@
+* {
+	outline: none;
+}
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
@@ -361,7 +364,7 @@ img {
 	.container #contact > h2 {
 		margin: 0;
 		font-size: 2.8em;
-		color: #26A69A;
+		color: #3C3C3C;
 	}
 	.container #contact .social-network ul {
 		list-style: none;
@@ -372,16 +375,23 @@ img {
 			display: inline-block;
 			margin: 0 1em;
 		}
-			.container #contact .social-network ul li h3 {
-				margin: 0;
-				font-size: 1.8em;
+			.container #contact .social-network ul li span {
+				-o-transition: all 0.3s ease;
+				-webkit-transition: all 0.3s ease;
 				color: #A0B9B7;
-				font-weight: 600;
+				cursor: pointer;
+				display: inline-block;
+				font-size: 2.8em;
+				transition: all 0.4s ease;
 			}
+				.container #contact .social-network ul li span:hover {
+					color: #12CBBA;
+				}
 				.container #contact .social-network ul li a {
-					color: #3C3C3C;
+					color: #333;
 					text-decoration: none;
-					font-size: 1.2em;
+					font-size: 1.4em;
+					font-weight: 300;
 				}
 	.container #contact .phones {
 		margin-top: 3em;
@@ -480,9 +490,6 @@ img {
 			position: relative;
 			padding: 0;
 		}
-			.container #suscribe #container-form-suscribe fieldset input {
-
-			}
 	.container #suscribe #container-title-suscribe {
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
@@ -495,7 +502,7 @@ img {
 		width: 50%;
 	}
 		.container #suscribe #container-title-suscribe h2 {
-			font-size: 1.8em;
+			font-size: 2.2em;
 			font-weight: 500;
 		}
 	.container #suscribe form {
@@ -507,7 +514,8 @@ img {
 		border-radius: 3px;
 		border: none;
 		box-sizing: border-box;
-		padding: 0.6em 0.8em;
+		font-size: 1em;
+		padding: 0.95em 0.8em;
 		width: 100%;
 	}
 	.container #suscribe form button {
@@ -515,8 +523,9 @@ img {
 		border-radius: 3px;
 		border: none;
 		outline: none;
-		padding: 0.8em 0.5em;
+		padding: 1.05em 0.5em;
 		width: 100%;
+		font-size: 1.01em;
 	}
 .container footer {
 	background: #12CBBA;

@@ -1,6 +1,23 @@
 
-
 function init() {
+
+	sr.reveal(".figure-work", {
+		duration: 800,
+		delay: 100,
+		distance: "120px",
+		easing: "ease",
+		origin: "right",
+		mobile: true,
+		scale: 0.9
+	});
+	sr.reveal(".block-service", {
+		duration: 700,
+		delay: 100,
+		distance: "80px",
+		easing: "ease-in-out",
+		origin: "bottom",
+		mobile: true
+	});
 
 	function invalidInputForm(element) {
 		var elemento = element.target;
