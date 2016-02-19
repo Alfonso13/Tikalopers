@@ -33,7 +33,7 @@ img {
 	}
 	.container > header #header nav#nav-desktop {
 		display: inline-block;
-		width: 70%;
+		width: 65%;
 		text-align: right;
 	}
 		.container > header #header nav#nav-desktop ul {}
