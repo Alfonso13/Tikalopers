@@ -255,12 +255,19 @@ img {
 		.container #services .package-services .block-service button {
 			background: #FFEB3B;
 			border: none;
-			color: #333;
-			font-weight: 500;
-			outline: none;
+			color: #444;
+			cursor: pointer;
 			font-size: 1em;
-			padding: 0.9em 1em;
+			font-weight: 600;
+			outline: none;
+			padding: 1em 1.2em;
+			-webkit-transition: all 0.3s ease-in-out;
+			-o-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
 		}
+			.container #services .package-services .block-service button:hover {
+				background: #FFE000;
+			}
 
 .container #work {
 	background: #EEE;

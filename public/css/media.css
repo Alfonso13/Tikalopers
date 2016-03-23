@@ -414,23 +414,23 @@
 	  
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) and (orientation: portrait) {
 	.container > header {
 		height: 340px !important;
-		background-size: 145%;
+		background-size: 162%;
 		background-position: -100px 40px;
 	}
 	.container > header h1 {
-		font-size: 2em !important;
+		font-size: 1.93em !important;
 		width: 85%;
-		margin-top: 3.5em;
+		margin-top: 3.1em;
 		padding: 0.5em !important;
 	}
 	.container > header #header nav#nav-desktop {
 		display: none;
 	}
 	.container > header .logo {
-		width: 40%;
+		width: 40% !important;
 		padding: 0.5em;
 	}
 	.container #header {
@@ -439,13 +439,6 @@
 	}
 	.btn-mobile-nav {
 		display: inline-block;
-	}
-	.container > header h1 {
-		padding: 2.2em 1em 0 1em;
-		font-size: 2.5em;
-	}
-	.container > header {
-		height: 380px !important;
 	}
 	.container #tikalopers {
 		padding: 2em;
@@ -494,7 +487,7 @@
 			font-size: 2.5em;
 		}
 		.container #services .service .block-service {
-			width: 50% !important;
+			width: 70% !important;
 		}
 		.container #services .service > span {
 			margin: 1em 0 0.8em 0;
@@ -560,6 +553,17 @@
 
 }
 
+@media only screen and (max-width: 480px) and (orientation: landscape) {
+	.container > header {
+		height: 340px !important;
+		background-size: 145%;
+		background-position: -100px 40px;
+	}
+	.container #services .service .block-service {
+		width: 50% !important;
+	}
+}
+
 @media only screen and (max-width: 320px) {
 	body {
 		font-size: 1em;
@@ -570,10 +574,10 @@
 		background-position: -140px 0;
 	}
 	.container > header h1 {
-		font-size: 1.75em !important;
+		font-size: 1.7em !important;
 		width: 85%;
 		margin-top: 3.5em;
-		padding: 0.5em !important;
+		padding: 0.6em !important;
 	}
 	.container > header .logo {
 		width: 60% !important;
