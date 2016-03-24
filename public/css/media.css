@@ -464,14 +464,15 @@
 			padding: 0.2em 0.8em 0.5em 0.8em;
 		}
 		.container #work #mobile-web-applications .figure-work {
-			padding: 0 0.5em 2em 1.5em;
+			padding: 0 0.5em 1em 1.5em;
 		}
 		.container #work #social-media-marketing {
-			margin-top: 1em;
+			margin-top: 0;
 			margin-bottom: 0;
 		}
 		.container #work #mobile-web-applications {
 			margin-bottom: 0;
+			padding-bottom: 0;
 		}
 		.container #work #social-media-marketing .figure-work {
 			padding: 0;
