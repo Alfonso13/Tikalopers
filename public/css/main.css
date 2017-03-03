@@ -337,13 +337,16 @@ img {
 			margin: 2em;
 		}
 			.container #we article figure {
-				padding: 2em;
+				/* padding: 2em; */
 				background: #12CBBA;
 				border-radius: 100%;
-				height: 100px;
-				width: 100px;
+				height: 150px;
+				width: 150px;
 				display: inline-block;
 			}
+				.container #we article figure img {
+					border-radius: 100%;
+				}
 			.container #we article h4 {
 				font-weight: 300;
 				font-size: 1.5em;
