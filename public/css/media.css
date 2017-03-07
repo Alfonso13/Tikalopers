@@ -1,3 +1,10 @@
+/* 
+	1026px
+	1025px
+	800px
+	768px orientation portrait
+*/
+
 @media only screen and (min-width: 1026px) {
 	#quotation {
 		padding: 5% 20%;
@@ -25,7 +32,7 @@
 
 
 	.container #services .service .block-service {
-		width: 25% !important;
+		width: 29% !important;
 	}
 	.container #services .package-services .block-service {
 		width: 25% !important;
@@ -89,7 +96,7 @@
 		padding: 2em 0 0 0;
 	}
 		.container #services .service .block-service {
-			width: 34% !important;
+			width: 40% !important;
 		}
 		.container #services .package-services .block-service {
 			width: 30% !important;
@@ -119,6 +126,12 @@
 	.container #suscribe #container-form-suscribe {
 		width: 35%;
 	}
+	.container #suscribe #container-title-suscribe {
+		width: 60%;
+	}
+		.container #suscribe #container-title-suscribe h2 {
+			font-size: 1.8em;
+		}
 	.container footer #descrption-footer {
 		width: 50%;
 	}
@@ -209,7 +222,7 @@
 			margin: 1em 0 0.8em 0;
 		}
 		.container #services .service .block-service {
-			width: 40% !important;
+			width: 48% !important;
 		}
 		.container #services .package-services {
 			padding: 2.5em 0 5em 0;
@@ -270,6 +283,9 @@
 			padding-left: 1.5em;
 			width: 30%;
 		}
+}
+@media only screen and (max-width: 568px) and (orientation: portrait) {
+	.container {}
 }
 @media only screen and (max-width: 568px) and (orientation: landscape) {
 	body {
@@ -380,6 +396,7 @@
 		}
 	.container #contact {
 		padding: 2em 3em;
+		box-sizing: border-box;
 	}
 		.container #contact .social-network ul li {
 			width: 34%;
@@ -415,6 +432,7 @@
 }
 
 @media only screen and (max-width: 480px) and (orientation: portrait) {
+
 	.container > header {
 		height: 340px !important;
 		background-size: 162%;
