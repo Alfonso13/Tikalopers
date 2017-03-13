@@ -398,7 +398,7 @@ img {
 				color: #A0B9B7;
 				cursor: pointer;
 				display: inline-block;
-				font-size: 2.8em;
+				font-size: 2.5em;
 				transition: all 0.4s ease;
 			}
 				.container #contact .social-network ul li span:hover {
@@ -546,13 +546,14 @@ img {
 	}
 .container footer {
 	background: #12CBBA;
-	padding: 3em 4em;
+	padding: 1em;
 	text-align: center;
 }
 	.container footer p {
 		color: #fff;
-		font-weight: 300;
+		font-weight: 400;
 		margin: 0;
+		font-size: 1.1em;
 	}
 	.container footer #descrption-footer, .container footer #social-network-footer {
 		display: inline-block;
@@ -572,10 +573,10 @@ img {
 			width: 80%;
 		}
 		.container footer #social-network-footer a {
-			color: #239086;
+			color: #1c655f;
 			display: block;
-			text-decoration: none;
 			padding: 0.1em 0;
+			text-decoration: none;
 		}
 	.container footer #descrption-footer {
 		padding-right: 2em;

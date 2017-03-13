@@ -570,6 +570,10 @@
 			width: 34%;
 		}
 
+	#quotation {
+		padding: 10% 4%;
+	}
+
 }
 
 @media only screen and (max-width: 480px) and (orientation: landscape) {
