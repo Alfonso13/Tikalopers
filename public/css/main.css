@@ -546,12 +546,12 @@ img {
 	}
 .container footer {
 	background: #12CBBA;
-	padding: 1em;
+	padding: 1.4em;
 	text-align: center;
 }
 	.container footer p {
 		color: #fff;
-		font-weight: 400;
+		font-weight: 300;
 		margin: 0;
 		font-size: 1.1em;
 	}
